@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DaniDev Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo_large.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Dev skills</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Dani Román</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Web developer</p>
+            <img src="img/miFoto.jpg" alt="my picture" class="intro__img">
+        </section>
+        
+        
+        <!-- My knowledge -->
+        <section class="knowledge" id="knowledge">
+            <h2 class="knowledge-h2">Dev skills</h2>
+            <div class="knowledge-container">
+                <div class="knowledge-item">
+                    <h3>HTML - CSS</h3>
+                    <p>Basic concepts of CSS and HTML for the creation of basic pages like the ones I present in my work, as well as responsive design through <span>media queris</span>, basic knowledge of the <span>Bootstrap</span> framework and how to edit the default designs, knowledge of the Css processor <span>Sass</span>. </p>
+                </div> <!-- / knowledge -->
+                
+                <div class="knowledge-item">
+                    <h3>JavaScript</h3>
+                    <p>Variable management, <span>DOM</span> interaction, converson operators, Arrays, control structures and iterations, <span>Events</span>, working with functions, forms & <span>RegEx</span></p>
+                </div> <!-- / knowledge -->
+                
+                <div class="knowledge-item">
+                    <h3>PHP</h3>
+                    <p>Modules, pacakages and <span>OOP</span>, exepcion handling, form validation, composer and <span>PHP Unit tests</span>.</p>
+                </div> <!-- / knowledge -->
+
+                <div class="knowledge-item">
+                    <h3>MySQL - PostgresSQL</h3>
+                    <p>Managment of a school project for the organisation, implementation and data entry with <span>MySQL</span> of a database for a set of event and service booking companies, role management with <span>Postgres</span> and request queries</p>
+                </div> <!-- / knowledge -->
+
+                <div class="knowledge-item">
+                    <h3>Python</h3>
+                    <p>Managment of variables, <span>arrays</span> exceptions, loops, <span>modules</span>, functions, dictionaries...</p>
+                </div> <!-- / knowledge -->
+                
+                
+            </div> <!-- / knowledge -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Developer based out of Barcelona</p>
+           
+           <div class="about-me__body">
+               <p>Computer enthusiast and continuous learning. I am currently studying second course of development for web applications, I love learning new algorithms and ways to solve problems. Programming motivates me since I feel that I create small fragments of something that will be useful and used with a purpose.</p>
+               <p>when i'm not working on institute projects i'm taking courses on my own to learn on platforms like udemy, freecodecamp, scrimba.
+                The next knowledge that I would like to acquire are java, react and mongodb . In the future I hope to work on projects for companies, startups or individuals that keep me in constant learning in which I can contribute all my knowledge giving the best of myself.</p>
+           </div>
+           
+           <img src="img/foto1.png" alt="random picture" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio-container">
+                <!-- Portfolio item 01 -->
+                <div class="portfolio-box">
+                    <a href="workBootstrap/index.html" target="_blank">
+                        <img class="portfolio-Img" src="img/works/bots.png" title="portfolio 1 picture" class="img-fluid">
+                    </a>
+                    <div class="portfolio-info">
+                      <div class="caption">
+                        <h4>Services Home page</h4>
+                        <p>Bootstrap - sass - node</p>
+                      </div>
+                    </div>
+                </div> 
+                
+                <!-- Portfolio item 02 -->
+                <div class="portfolio-box">
+                    <a href="restaurante/index.html" target="_blank">
+                        <img class="portfolio-Img" src="img/works/cafeteria.png" alt="" title="portfolio 1 picture" class="img-fluid">
+                    </a>
+                    <div class="portfolio-info">
+                      <div class="caption">
+                        <h4>Restaurante</h4>
+                        <p>HTML - CSS</p>
+                      </div>
+                    </div>
+                </div>   
+
+                <!-- Portfolio item 03 -->
+                <div class="portfolio-box">
+                    <a href="Tienda/index.html" target="_blank">
+                        <img class="portfolio-Img" src="img/works/tienda.png" alt="" title="portfolio 1 picture" class="img-fluid">
+                    </a>
+                    <div class="portfolio-info">
+                      <div class="caption">
+                        <h4>Online shop</h4>
+                        <p>Bootstrap</p>
+                      </div>
+                    </div>
+                </div>
+                
+                 <!-- Portfolio item 03 -->
+                 <div class="portfolio-box">
+                    <a href="" target="">
+                        <img class="portfolio-Img" src="img/works/git.jpg" alt="" title="portfolio 1 picture" class="img-fluid">
+                    </a>
+                    <div class="portfolio-info">
+                      <div class="caption">
+                        <h4>Git Repo with Programming exercises</h4>
+                        <p>In progress...</p>
+                      </div>
+                    </div>
+                </div>   
+                
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- START THE SOCIAL MEDIA CONTENT  -->
+            <section class="redes-sociales">
+                <div class="contenedor">
+                    <a class="codepen" href="https://codepen.io"><i class="fab fa-codepen"></i></a>
+                    <a class="drible" href="http://dribbble.com"><i class="fab fa-dribbble"></i></a>
+                    <a class="kraken" href="https://gitkraken.com"><i class="fab fa-gitkraken"></i></a>
+                    <a class="github" href="https://github.com"><i class="fab fa-github"></i></a>
+                    <a class="instagram" href="https://bitbucket.org"><i class="fab fa-bitbucket"></i></a>
+                </div>
+            </section>
+          </footer>
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
