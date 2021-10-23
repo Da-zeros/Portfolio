@@ -401,19 +401,23 @@ span {
 }
 
 .portfolio-box {
-    position: relative;
-    width: 400px;
+    /* position: relative; */
+    width: 350px;
     height: auto;
     overflow: hidden;
     margin: 1rem;
     box-shadow:10px 11px 6px -3px #5C5C5C;
+    
 }
 
 .portfolio-box img:hover{
     transform: scale(1.5);
     transition-duration:800ms;
     transition-property:all;
+    background-color: rgba(81, 89, 138, 0.2);
+    
 }
+
 @media (max-width: 900px){
     .portfolio-box{
         width: 100%;
@@ -424,8 +428,8 @@ span {
     height: 100%;
 }
 
-
-.portfolio-info {
+/* arreglar esto se superpone y no puedo clicar el enlace */
+/*.portfolio-info {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -454,7 +458,7 @@ span {
 
 .caption h4{
     text-transform: uppercase;
-}
+}*/
 
 
 
